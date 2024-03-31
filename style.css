@@ -1,0 +1,28 @@
+body {
+    transition: background-color 0.5s ease;
+    /* Add transition effect for smoother color change */
+    font-family: Arial, sans-serif;
+    /* Default font family */
+    color: black;
+    /* Default font color */
+    text-align: center;
+    /* Center align text */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+#logo {
+    font-size: 36px;
+    /* Set font size larger */
+    margin-top: 50px;
+    /* Adjust top margin */
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
